@@ -12,7 +12,8 @@
     "build:watch": "tsc -w",
     "start:dev": "concurrently \"yarn build:watch\" \"yarn dev\"",
     "lint": "eslint src/**/*.ts",
-    "format": "eslint src/**/*.ts --fix"
+    "format": "eslint src/**/*.ts --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
